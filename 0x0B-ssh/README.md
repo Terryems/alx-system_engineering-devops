@@ -1,1 +1,1 @@
-this repo contains 0x0B-ssh task
+# Solutions to tasks on 0x0B. SSH
