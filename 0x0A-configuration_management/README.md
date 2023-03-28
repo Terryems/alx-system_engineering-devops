@@ -1,1 +1,1 @@
-this repo contains configuration for my files
+# Solutions to tasks on Configuration management
