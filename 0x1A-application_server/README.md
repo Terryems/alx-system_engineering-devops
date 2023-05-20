@@ -16,9 +16,6 @@ In contrast, static content generally doesn’t change unless it is manually edi
 Application servers:
 - Use multiple protocols, including HTTP, the most common web protocol, and IIOP/SSL, which increases the number of programs which which the servers can share business logic
 - Use multi-threading, which adds speed and efficiency to computing processes because multiple threads can run concurrently
-- Implement business logic, which manages rules for data behavior within software
-
+- Implement business logic, which manages rules for data behavior within softwar
 HOW DO APPLICATION SERVERS WORK?
-Application servers work as an intermediary between databases, which store application data, and web clients. They also communicate with web servers, which deliver content to the web client.
-
-Application servers and web servers both communicate using servlets, which are server-side Java classes that process web server requests and return a response. Servlets are used to return dynamic web content to web pages; they process complex requests and transform data from the database. Servlets cost less than Common Gateway Interface (CGI) scripting, another server extension, and they directly connect to the server where CGI does not.
+Application servers work as an intermediary between databases, which store application data, and web clients. They also communicate with web servers, which deliver conteervers and web servers both communicate using servlets, which are server-side Java classes that process web server requests and return a response. Servlets are used to return dynamic web content to web pages; they process complex requests and transform data from the database. Servlets cost less than Common Gateway Interface (CGI) scripting, another server extension, and they directly connect to the server where CGI does not.
