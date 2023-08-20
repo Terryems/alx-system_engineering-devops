@@ -1,3 +1,4 @@
+#The first line install nginx  and the configuration inside  /etc/nginx
 exec { 'fix--for-nginx':
   command => 'sed -i "s/15/4096/" /etc/default/nginx',
   path    => '/usr/local/bin/:/bin/'
